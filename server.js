@@ -30,6 +30,9 @@ app.use("/api/order",orderRouter)
 app.get("/",(req,res)=>{
     res.send("API Working")
 })
+app.get("/input",(req,res)=>{
+    res.send("API data Working")
+})
 
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
