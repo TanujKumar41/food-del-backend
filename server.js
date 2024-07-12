@@ -11,7 +11,7 @@ import orderRouter from "./routes/orderRoute.js"
 
 // app config
 const app = express()
-const port = 4000
+// const port = 4000
 
 // middleware
 app.use(express.json())
@@ -34,8 +34,8 @@ app.get("/input",(req,res)=>{
     res.send("API data Working")
 })
 
-app.listen(port,()=>{
-    console.log(`Server Started on http://localhost:${port}`)
-})
+// app.listen(port,()=>{
+//     console.log(`Server Started on http://localhost:${port}`)
+// })
 
 // mongodb+srv://tanujkumar191001:9866611921@cluster0.2bqstiq.mongodb.net/?
